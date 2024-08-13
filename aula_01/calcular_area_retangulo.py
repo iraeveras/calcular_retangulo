@@ -1,9 +1,9 @@
-largura = float(input("Digite a largura da base: "))
+base = float(input("Digite a largura da base: "))
 altura = float(input("Digite a altura: "))
 
 area = 0
 
-if altura and largura:
+if base and altura:
     area = base * altura
     print(f"A área do retângulo é: {area}")
 else:
