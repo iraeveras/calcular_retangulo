@@ -13,14 +13,14 @@ for i in range(numero_de_alunos):
     soma_media += media
 
     if media >= 7.0:
-        status = "Aprovado"
+        situacao = "Aprovado"
     else:
-        status = "Reprovado"
+        situacao = "Reprovado"
     
     print(f"\nNome: {aluno}")
     print(f"Notas: {nota1, nota2, nota3}")
     print(f"Média: {media}")
-    print(f"Status: {status}")
+    print(f"Situação: {situacao}")
 
 media_geral = soma_media / numero_de_alunos
 print(f"Média geral da turma: {media_geral}")
