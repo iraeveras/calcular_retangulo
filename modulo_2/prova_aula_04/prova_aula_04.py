@@ -6,9 +6,7 @@ em seguida, divida o resultado por três. Por fim, a função deve retornar o va
 
 def media (n1, n2, n3):
     soma = n1 + n2 + n3
-
     media = soma / 3
-
     print(media)
 
 
