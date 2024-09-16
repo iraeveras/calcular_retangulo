@@ -6,12 +6,7 @@ verifique qual número é maior que os outros dois. A função deve então retor
 # from functools import reduce
 
 def maior_numero(n1,n2,n3):
-    if n1 > n2 and n1 > n3:
-        return n1
-    elif n2 > n1 and n2 > n3:
-        return n2
-    else:
-        return n3
+    return reduce(lambda x, y: x if x > y else y, [n1,n2,n3])
 
 valor_01 = float(input("Digite o primeiro numero: "))
 valor_02 = float(input("Digite o segundo numero: "))
