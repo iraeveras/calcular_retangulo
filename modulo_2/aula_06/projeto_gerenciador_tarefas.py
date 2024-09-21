@@ -27,6 +27,7 @@ def excluir_tarefa():
     for i in range(len(tarefas)):
         valor = tarefas[i]
         print(i, valor["nome"])
+        
 
 excluir_tarefa()
 
